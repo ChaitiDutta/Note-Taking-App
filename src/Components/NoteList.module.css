@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.card {
+    transition: translate ease-in-out 100ms, 
+    box-shadow ease-in-out 100ms;
+}
+
+.card:hover, .card:focus{
+    translate: 0 -5px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,.2);
+}
+
+ .tag{
+    background-color: #f07783 !important;
+ 
+}
+.form{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-047-kq92wx9y.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=a81146a9179ab47e9962d3df5dfb34eb");
+}
+
+.notelist{
+    background-image: url("https://media.istockphoto.com/id/1305895547/photo/shadow-of-leaf-overlay-on-white-texture-background-use-for-decorative-product-presentation.jpg?s=170667a&w=0&k=20&c=x5m1CeXhJPXOP3DKaT2YIPwvwgBW3mDphKSakJMdJHg=");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.font{
+    font-family: 'Lobster', cursive;
+    color: rgb(10, 109, 10);
+}
+
